@@ -14,3 +14,6 @@
 - Run: react-native run-android
 - Run: react-native start --reset-cache
 *In case of problem, stop everything and run react-native start --reset-cache again
+
+*Issue during development: QRCode is not a native function anymore, so i needed to use que svg and qrcode svg lib to generate one, and it almost broken the entire ap.
+
